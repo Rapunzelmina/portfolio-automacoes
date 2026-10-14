@@ -38,6 +38,7 @@ Os projetos mais completos também têm um repositório só deles, com diagrama:
 - [Entrada de NF-e com IA](https://github.com/Rapunzelmina/AI-Assisted-Invoice-Entry): regras primeiro, IA por último, uma pessoa sempre decide
 - [App de recebimento e financeiro](https://github.com/Rapunzelmina/Receiving-Finance-PWA): aprovação, tesouraria (conciliação OFX) e painel de metas
 - [Contas a pagar, aprovação e borderô](https://github.com/Rapunzelmina/Accounts-Payable-Approval-Workflow): do ERP ao fluxo de aprovação, com segurança por perfil no banco
+- [Sistema de controle de produção e estoque (IRIS)](https://github.com/Rapunzelmina/Production-Stock-Control-System): pedido, produção, laboratório com pesagem conferida, delivery e exportação para Excel
 - [Fechamento de vendas e metas](https://github.com/Rapunzelmina/Sales-Closing-Automation): de até uma semana para cerca de 5 minutos
 
 ## Melhoria de processos: antes e depois
