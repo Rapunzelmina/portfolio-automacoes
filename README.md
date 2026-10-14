@@ -31,6 +31,15 @@ Em uma rede de lojas do setor de alimentação, passei por várias áreas da emp
 | Comercial e delivery | [Margem de delivery por aplicativo](casos/08-margem-de-delivery-por-app.md) | Dados e relatórios | Em evolução |
 | Operação e controle | [Sistema de controle de produção e estoque de gelato (IRIS)](casos/09-sistema-de-producao-e-estoque-de-gelato.md) | Aplicativo + robôs | Em operação e em expansão |
 
+## Casos em repositório próprio
+
+Os projetos mais completos também têm um repositório só deles, com diagrama:
+
+- [Entrada de NF-e com IA](https://github.com/Rapunzelmina/AI-Assisted-Invoice-Entry): regras primeiro, IA por último, uma pessoa sempre decide
+- [App de recebimento e financeiro](https://github.com/Rapunzelmina/Receiving-Finance-PWA): aprovação, tesouraria (conciliação OFX) e painel de metas
+- [Contas a pagar, aprovação e borderô](https://github.com/Rapunzelmina/Accounts-Payable-Approval-Workflow): do ERP ao fluxo de aprovação, com segurança por perfil no banco
+- [Fechamento de vendas e metas](https://github.com/Rapunzelmina/Sales-Closing-Automation): de até uma semana para cerca de 5 minutos
+
 ## Melhoria de processos: antes e depois
 
 | Processo | Antes | Depois |

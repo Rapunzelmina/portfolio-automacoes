@@ -31,6 +31,15 @@ At a food-service retail chain I worked across several areas of the company and,
 | Sales & delivery | [Delivery margin per app](cases/08-margem-de-delivery-por-app.md) | Data and reporting | Evolving |
 | Operations & control | [Gelato production and stock control system (IRIS)](cases/09-sistema-de-producao-e-estoque-de-gelato.md) | App + robots | In operation and expanding |
 
+## Cases in their own repository
+
+The most complete projects also have a repository of their own, with a diagram:
+
+- [AI-assisted invoice entry](https://github.com/Rapunzelmina/AI-Assisted-Invoice-Entry): rules first, AI last, a person always decides
+- [Receiving and finance app](https://github.com/Rapunzelmina/Receiving-Finance-PWA): approval, treasury (OFX reconciliation) and targets dashboard
+- [Accounts payable, approval and payment batch](https://github.com/Rapunzelmina/Accounts-Payable-Approval-Workflow): from the ERP to the approval workflow, with role-based security in the database
+- [Sales close automation](https://github.com/Rapunzelmina/Sales-Closing-Automation): from up to a week to about 5 minutes
+
 ## Process improvement: before and after
 
 | Process | Before | After |
