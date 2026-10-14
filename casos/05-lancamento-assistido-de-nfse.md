@@ -21,9 +21,9 @@ O robô busca as notas pendentes, abre as imagens da nota e do boleto, extrai os
 
 O trabalho de digitar caiu para revisar e salvar, e o sistema melhora a cada nota porque aprende os fornecedores.
 
-## Minha atuação
+## O que eu fiz
 
-Levantamento do processo real, definição das regras de negócio, desenvolvimento, testes, tratamento de falhas e ajustes de confiabilidade.
+Mapeei como a nota de serviço é lançada no contas a pagar, defini quais campos o OCR precisa extrair e como o sistema memoriza fornecedores e contas contábeis para melhorar a cada nota.
 
 ---
 *Código-fonte privado: contém integrações e informações do ambiente corporativo. Veja a nota de privacidade no [README principal](../README.md).*

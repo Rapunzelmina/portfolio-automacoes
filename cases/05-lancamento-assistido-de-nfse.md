@@ -21,9 +21,9 @@ The bot fetches pending invoices, opens the invoice and payment-slip images, ext
 
 Typing was reduced to reviewing and saving, and the system improves with every invoice because it learns suppliers.
 
-## My role
+## What I did
 
-Understanding the real process, defining the business rules, development, testing, failure handling and reliability tuning.
+I mapped how a service invoice is posted in accounts payable, defined which fields the OCR must extract and how the system remembers suppliers and ledger accounts to improve with each invoice.
 
 ---
 *Source code is private: it contains integrations and information from the corporate environment. See the privacy note in the [main README](../README.en.md).*

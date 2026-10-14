@@ -20,9 +20,9 @@ Automatic cross-reference between sales by product and each product's average co
 
 It became possible to see each channel's margin trend, which was invisible before. The concept is still being refined with management.
 
-## My role
+## What I did
 
-Understanding the real process, defining the business rules, development, testing, failure handling and reliability tuning.
+I validated the real structure of each ERP report (layout, columns and special cases) before cross-referencing sales and cost by product code, and handled the cases where a sold product has no cost posted that month.
 
 ---
 *Source code is private: it contains integrations and information from the corporate environment. See the privacy note in the [main README](../README.en.md).*

@@ -22,9 +22,9 @@ As lojas escaneiam a chave da nota pelo celular; o robô pega a fila, faz a mani
 
 Menos digitação e menos erro de unidade, com a decisão final sempre nas mãos de uma pessoa.
 
-## Minha atuação
+## O que eu fiz
 
-Levantamento do processo real, definição das regras de negócio, desenvolvimento, testes, tratamento de falhas e ajustes de confiabilidade.
+Descobri as regras do órgão fiscal, como o limite de consultas por hora, e desenhei a ordem de conversão (tabela aprendida, regras, IA por último), guiando a IA com instruções precisas e deixando sempre uma pessoa com a decisão final.
 
 ---
 *Código-fonte privado: contém integrações e informações do ambiente corporativo. Veja a nota de privacidade no [README principal](../README.md).*

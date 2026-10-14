@@ -22,9 +22,9 @@ Stores scan the invoice key from their phones; the bot picks up the queue, ackno
 
 Less typing and fewer unit errors, with the final decision always in a person's hands.
 
-## My role
+## What I did
 
-Understanding the real process, defining the business rules, development, testing, failure handling and reliability tuning.
+I found out the tax authority's rules, such as the hourly query limit, and designed the conversion order (learned table, rules, AI last), guiding the AI with precise instructions and always leaving a person with the final decision.
 
 ---
 *Source code is private: it contains integrations and information from the corporate environment. See the privacy note in the [main README](../README.en.md).*

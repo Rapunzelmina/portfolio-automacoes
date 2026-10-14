@@ -22,9 +22,9 @@ Um robô detecta o primeiro dia útil do mês, gera o relatório do mês anterio
 
 Rotina mensal que não depende mais de ninguém lembrar de fazer, com nomes e pastas sempre padronizados.
 
-## Minha atuação
+## O que eu fiz
 
-Levantamento do processo real, definição das regras de negócio, desenvolvimento, testes, tratamento de falhas e ajustes de confiabilidade.
+Inspecionei a página do relatório ao vivo e descobri que ele tem URL própria e um formulário de filtro direto, o que evitou o caminho mais frágil pela lista de relatórios. Defini a regra do primeiro dia útil e o padrão de nomes e pastas com a contabilidade.
 
 ---
 *Código-fonte privado: contém integrações e informações do ambiente corporativo. Veja a nota de privacidade no [README principal](../README.md).*

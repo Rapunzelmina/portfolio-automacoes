@@ -21,9 +21,9 @@ An app with three roles (administrator, store and pastry chef). The store places
 
 Ordering and production already work in testing; purchasing, stock and ERP integration are the next steps.
 
-## My role
+## What I did
 
-Understanding the real process, defining the business rules, development, testing, failure handling and reliability tuning.
+I learned the kitchen's ordering and production routine and designed the flow (roles, ordering, production record with a photo of the scale) before building, separating what already works from what is still being studied.
 
 ---
 *Source code is private: it contains integrations and information from the corporate environment. See the privacy note in the [main README](../README.en.md).*

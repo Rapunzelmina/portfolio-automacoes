@@ -22,9 +22,9 @@ Every day a bot extracts accounts payable (a 90-days-back, 90-days-ahead window)
 
 What used to be a list inside the ERP became a workflow with approver, history and payment batch, refreshed every day with no intervention.
 
-## My role
+## What I did
 
-Understanding the real process, defining the business rules, development, testing, failure handling and reliability tuning.
+I worked out how payments were actually approved and turned that flow into tables, routing rules and per-role permissions inside the database, researching how to apply row-level security (RLS) and triggers.
 
 ---
 *Source code is private: it contains integrations and information from the corporate environment. See the privacy note in the [main README](../README.en.md).*

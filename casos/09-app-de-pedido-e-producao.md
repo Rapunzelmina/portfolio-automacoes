@@ -21,9 +21,9 @@ Aplicativo com três perfis (administrador, loja e confeiteiro). A loja faz o pe
 
 Pedido e produção já funcionam em teste; as etapas de compras, estoque e integração com o ERP seguem como próximos passos.
 
-## Minha atuação
+## O que eu fiz
 
-Levantamento do processo real, definição das regras de negócio, desenvolvimento, testes, tratamento de falhas e ajustes de confiabilidade.
+Entendi a rotina de pedido e produção da cozinha e desenhei o fluxo (perfis, pedido, registro de produção com foto da balança) antes de construir, separando o que já funciona do que ainda está em estudo.
 
 ---
 *Código-fonte privado: contém integrações e informações do ambiente corporativo. Veja a nota de privacidade no [README principal](../README.md).*

@@ -22,9 +22,9 @@ A bot detects the first business day of the month, generates the previous month'
 
 A monthly routine that no longer depends on anyone remembering it, with consistent names and folders.
 
-## My role
+## What I did
 
-Understanding the real process, defining the business rules, development, testing, failure handling and reliability tuning.
+I inspected the report page live and found it has its own URL and a direct filter form, which avoided the more fragile route through the report list. I defined the first-business-day rule and the file and folder naming standard with accounting.
 
 ---
 *Source code is private: it contains integrations and information from the corporate environment. See the privacy note in the [main README](../README.en.md).*

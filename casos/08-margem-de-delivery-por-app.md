@@ -20,9 +20,9 @@ Cruzamento automático entre vendas por produto e custo médio de cada produto (
 
 Passou a ser possível enxergar a tendência de margem de cada canal, o que antes não aparecia. O conceito segue em ajuste com a gestão.
 
-## Minha atuação
+## O que eu fiz
 
-Levantamento do processo real, definição das regras de negócio, desenvolvimento, testes, tratamento de falhas e ajustes de confiabilidade.
+Validei a estrutura real de cada relatório do ERP (layout, colunas e casos especiais) antes de cruzar vendas e custo pelo código do produto, e tratei os casos em que um produto vendido não tem custo lançado no mês.
 
 ---
 *Código-fonte privado: contém integrações e informações do ambiente corporativo. Veja a nota de privacidade no [README principal](../README.md).*

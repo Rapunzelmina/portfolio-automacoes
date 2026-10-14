@@ -63,9 +63,14 @@ flowchart LR
 - **Aplicativos web:** PWA instalável em JavaScript puro, com autenticação, perfis e funcionamento offline
 - **IA aplicada com responsabilidade:** OCR e conversão de unidades com Claude, sempre com revisão humana antes de gravar
 
-## Como foram desenvolvidos
+## Como eu trabalho
 
-Os projetos foram desenvolvidos por mim, com o Claude (assistente de IA da Anthropic) como parceiro de programação: eu defino o problema e as regras, valido contra o processo real e decido o que entra em produção.
+1. **Descubro o processo e o gargalo** conversando com quem opera a área.
+2. **Inspeciono o sistema.** Quando não há API, analiso as telas (botões, formulários, URLs e o caminho de cada relatório) até entender como automatizar.
+3. **Pesquiso e escolho a tecnologia** e o caminho de execução.
+4. **Conduzo a IA com instruções precisas.** Eu defino o problema e as regras; o Claude (Anthropic) é meu parceiro de programação e eu reviso o que ele escreve.
+5. **Testo com dados reais**, trato as falhas e só então deixo rodar sozinho.
+6. **Mantenho uma pessoa com a decisão final** onde há risco.
 
 ## Privacidade e segurança
 

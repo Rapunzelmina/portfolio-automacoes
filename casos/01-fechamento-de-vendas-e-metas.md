@@ -24,9 +24,9 @@ Um robô entra sozinho no ERP, baixa o relatório de vendas de cada loja, soma p
 
 O processo, que podia levar uma semana de trabalho, passou a rodar automaticamente em cerca de 5 minutos. Veja também o [caso público original](https://github.com/Rapunzelmina/Sales-Closing-Automation).
 
-## Minha atuação
+## O que eu fiz
 
-Levantamento do processo real, definição das regras de negócio, desenvolvimento, testes, tratamento de falhas e ajustes de confiabilidade.
+Identifiquei o gargalo nos relatórios semanais de vendas e inspecionei as telas do ERP (botões, filtros e o caminho de cada relatório) para descobrir como automatizar um sistema sem API. Traduzi as regras do fechamento (categorias, checkpoints, virada de mês) em código e testei com os números reais antes de deixar rodar sozinho.
 
 ---
 *Código-fonte privado: contém integrações e informações do ambiente corporativo. Veja a nota de privacidade no [README principal](../README.md).*

@@ -63,9 +63,14 @@ flowchart LR
 - **Web apps:** installable PWA in plain JavaScript, with authentication, roles and offline support
 - **Responsible applied AI:** OCR and unit conversion with Claude, always with human review before anything is saved
 
-## How they were built
+## How I work
 
-I built these projects myself, with Claude (Anthropic's AI assistant) as a programming partner: I define the problem and the rules, validate against the real process and decide what goes to production.
+1. **I discover the process and the bottleneck** by talking to the people who run the area.
+2. **I inspect the system.** When there is no API, I analyse the screens (buttons, forms, URLs and the path to each report) until I understand how to automate it.
+3. **I research and choose the technology** and the way to execute it.
+4. **I direct the AI with precise instructions.** I define the problem and the rules; Claude (Anthropic) is my programming partner and I review what it writes.
+5. **I test with real data**, handle failures and only then let it run unattended.
+6. **I keep a person in charge of the final decision** wherever there is risk.
 
 ## Privacy and security
 

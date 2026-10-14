@@ -22,9 +22,9 @@ An installable phone app in one place, with per-user login and access roles. In 
 
 A single record of invoices, approval with history, bank reconciliation and targets on the phone, with each person seeing only what their role allows.
 
-## My role
+## What I did
 
-Understanding the real process, defining the business rules, development, testing, failure handling and reliability tuning.
+I designed the screens and roles from the real routine of the stores and finance, and researched and implemented barcode scanning, OFX statement import for reconciliation and the targets dashboard.
 
 ---
 *Source code is private: it contains integrations and information from the corporate environment. See the privacy note in the [main README](../README.en.md).*

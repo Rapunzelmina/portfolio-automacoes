@@ -23,9 +23,9 @@ Um pipeline lê os relatórios de estoque e de metas de cada loja, consolida o d
 
 Fechamento mensal reproduzível, com as regras documentadas em código e os mesmos números para todas as lojas.
 
-## Minha atuação
+## O que eu fiz
 
-Levantamento do processo real, definição das regras de negócio, desenvolvimento, testes, tratamento de falhas e ajustes de confiabilidade.
+Levantei as regras de bonificação com a gestão (metas atingidas e melhora no índice de perda), traduzi tudo em código e documentei de onde vem cada número para que qualquer pessoa consiga conferir o resultado.
 
 ---
 *Código-fonte privado: contém integrações e informações do ambiente corporativo. Veja a nota de privacidade no [README principal](../README.md).*

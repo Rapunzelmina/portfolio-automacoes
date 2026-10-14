@@ -22,9 +22,9 @@ Um aplicativo instalável no celular, num único lugar, com login por usuário e
 
 Um registro único das notas, aprovação com histórico, conciliação bancária e metas acessíveis no celular, com cada pessoa vendo só o que o seu perfil permite.
 
-## Minha atuação
+## O que eu fiz
 
-Levantamento do processo real, definição das regras de negócio, desenvolvimento, testes, tratamento de falhas e ajustes de confiabilidade.
+Desenhei as telas e os perfis a partir da rotina real das lojas e do financeiro, e pesquisei e implementei a leitura de código de barras, a importação de extrato OFX para a conciliação e o painel de metas.
 
 ---
 *Código-fonte privado: contém integrações e informações do ambiente corporativo. Veja a nota de privacidade no [README principal](../README.md).*

@@ -24,9 +24,9 @@ A bot logs into the ERP on its own, downloads each store's sales report, totals 
 
 A process that could take a full working week now runs automatically in about 5 minutes. See also the [original public case](https://github.com/Rapunzelmina/Sales-Closing-Automation).
 
-## My role
+## What I did
 
-Understanding the real process, defining the business rules, development, testing, failure handling and reliability tuning.
+I identified the bottleneck in the weekly sales reports and inspected the ERP screens (buttons, filters and the path to each report) to work out how to automate a system with no API. I turned the closing rules (categories, checkpoints, month rollover) into code and tested with real numbers before letting it run unattended.
 
 ---
 *Source code is private: it contains integrations and information from the corporate environment. See the privacy note in the [main README](../README.en.md).*

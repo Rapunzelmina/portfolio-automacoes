@@ -23,9 +23,9 @@ A pipeline reads each store's stock and target reports, consolidates waste, comp
 
 A reproducible monthly close, with the rules documented in code and the same numbers for every store.
 
-## My role
+## What I did
 
-Understanding the real process, defining the business rules, development, testing, failure handling and reliability tuning.
+I gathered the bonus rules with management (targets met and improvement in the loss rate), turned them into code and documented where every number comes from so anyone can check the result.
 
 ---
 *Source code is private: it contains integrations and information from the corporate environment. See the privacy note in the [main README](../README.en.md).*

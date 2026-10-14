@@ -22,9 +22,9 @@ Todo dia um robô extrai as contas a pagar (janela de 90 dias para trás e para 
 
 O que antes era uma lista dentro do ERP virou um fluxo com aprovador, histórico e borderô, atualizado todo dia sem intervenção.
 
-## Minha atuação
+## O que eu fiz
 
-Levantamento do processo real, definição das regras de negócio, desenvolvimento, testes, tratamento de falhas e ajustes de confiabilidade.
+Entendi como o pagamento era aprovado na prática e transformei esse fluxo em tabelas, regras de roteamento e permissões por perfil dentro do banco de dados, pesquisando como aplicar segurança por linha (RLS) e triggers.
 
 ---
 *Código-fonte privado: contém integrações e informações do ambiente corporativo. Veja a nota de privacidade no [README principal](../README.md).*
