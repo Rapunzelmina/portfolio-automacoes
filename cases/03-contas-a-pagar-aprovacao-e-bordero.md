@@ -1,6 +1,6 @@
 # Accounts payable: from extraction to approval and payment batch
 
-> **Area:** Finance · **Status:** In production · runs unattended every day
+> **Area:** Finance · **Status:** In production
 
 ## Problem
 
@@ -8,7 +8,7 @@ Accounts payable lived inside the ERP, with no clear approval queue and no conso
 
 ## Solution
 
-Every day a bot extracts accounts payable (a 90-days-back, 90-days-ahead window) and writes them to a PostgreSQL database without duplicating records. On top of that data I built the approval queue, supplier-based routing rules, automatic categories for new suppliers and the payment batch, all with role-based access enforced in the database itself (row level security).
+A scheduled bot extracts accounts payable (a 90-days-back, 90-days-ahead window) and writes them to a PostgreSQL database without duplicating records. After exporting, it checks that every expected unit is in the file, because a partial file once reached the database unnoticed. On top of that data I built the approval queue, supplier-based routing rules, automatic categories for new suppliers and the payment batch, all with role-based access enforced in the database itself (row level security).
 
 ## Tech
 
@@ -24,7 +24,7 @@ What used to be a list inside the ERP became a workflow with approver, history a
 
 ## What I did
 
-I worked out how payments were actually approved and turned that flow into tables, routing rules and per-role permissions inside the database, researching how to apply row-level security (RLS) and triggers.
+I worked out how payments were actually approved and turned that flow into tables, routing rules and per-role permissions inside the database, researching how to apply row-level security (RLS) and triggers. When I found that the exported file could arrive incomplete, I added a coverage check before upload.
 
 ---
 *Source code is private: it contains integrations and information from the corporate environment. See the privacy note in the [main README](../README.en.md).*

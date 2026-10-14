@@ -18,7 +18,7 @@ Em uma rede de lojas do setor de alimentação, passei por várias áreas da emp
 | Financeiro e operação das lojas | [App de recebimento e financeiro (PWA)](casos/06-app-de-recebimento-e-financeiro.md) | Em produção |
 | Operação e controle | [Apuração de descarte e bônus de equipe](casos/07-apuracao-de-descarte-e-bonus.md) | Em produção |
 | Comercial e delivery | [Margem de delivery por aplicativo](casos/08-margem-de-delivery-por-app.md) | Em evolução |
-| Operação e controle | [App de pedido e produção](casos/09-app-de-pedido-e-producao.md) | Em desenvolvimento |
+| Operação e controle | [Sistema de controle de produção e estoque de gelato (IRIS)](casos/09-sistema-de-producao-e-estoque-de-gelato.md) | Em operação e em expansão |
 
 Em estudo, ainda sem código: rotina de baixa de pagamentos, fluxo de caixa e DRE integrados ao módulo de tesouraria.
 

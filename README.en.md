@@ -18,7 +18,7 @@ At a food-service retail chain I worked across several areas of the company and 
 | Finance & store operations | [Receiving and finance app (PWA)](cases/06-app-de-recebimento-e-financeiro.md) | In production |
 | Operations & control | [Waste tracking and team bonus](cases/07-apuracao-de-descarte-e-bonus.md) | In production |
 | Sales & delivery | [Delivery margin per app](cases/08-margem-de-delivery-por-app.md) | Evolving |
-| Operations & control | [Ordering and production app](cases/09-app-de-pedido-e-producao.md) | In development |
+| Operations & control | [Gelato production and stock control system (IRIS)](cases/09-sistema-de-producao-e-estoque-de-gelato.md) | In operation and expanding |
 
 Under study, no code yet: payment write-off routine, cash flow and income statement integrated with the treasury module.
 

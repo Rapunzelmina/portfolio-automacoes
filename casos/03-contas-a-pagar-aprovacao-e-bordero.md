@@ -1,6 +1,6 @@
 # Contas a pagar: da extração à aprovação e ao borderô
 
-> **Área:** Financeiro · **Status:** Em produção · roda sozinho todos os dias
+> **Área:** Financeiro · **Status:** Em produção
 
 ## Problema
 
@@ -8,7 +8,7 @@ O contas a pagar vivia dentro do ERP, sem uma fila clara de aprovação nem uma 
 
 ## Solução
 
-Todo dia um robô extrai as contas a pagar (janela de 90 dias para trás e para frente) e grava num banco PostgreSQL, sem duplicar registros. Sobre esses dados foram construídos a fila de aprovação, regras de roteamento por fornecedor, categorias automáticas para fornecedores novos e o borderô de pagamentos, tudo com controle de acesso por perfil no próprio banco (row level security).
+Um robô agendado extrai as contas a pagar (janela de 90 dias para trás e para frente) e grava num banco PostgreSQL, sem duplicar registros. Depois de exportar, ele confere se todas as unidades esperadas vieram no arquivo, porque um arquivo parcial já chegou a subir ao banco sem ninguém perceber. Sobre esses dados foram construídos a fila de aprovação, regras de roteamento por fornecedor, categorias automáticas para fornecedores novos e o borderô de pagamentos, tudo com controle de acesso por perfil no próprio banco (row level security).
 
 ## Tecnologias
 
@@ -24,7 +24,7 @@ O que antes era uma lista dentro do ERP virou um fluxo com aprovador, histórico
 
 ## O que eu fiz
 
-Entendi como o pagamento era aprovado na prática e transformei esse fluxo em tabelas, regras de roteamento e permissões por perfil dentro do banco de dados, pesquisando como aplicar segurança por linha (RLS) e triggers.
+Entendi como o pagamento era aprovado na prática e transformei esse fluxo em tabelas, regras de roteamento e permissões por perfil dentro do banco de dados, pesquisando como aplicar segurança por linha (RLS) e triggers. Ao descobrir que o arquivo exportado podia chegar incompleto, acrescentei a validação de cobertura antes do envio.
 
 ---
 *Código-fonte privado: contém integrações e informações do ambiente corporativo. Veja a nota de privacidade no [README principal](../README.md).*
