@@ -1,6 +1,6 @@
 # Weekly sales close and targets
 
-> **Area:** Sales & targets · **Status:** In production · runs unattended every day
+> **Area:** Sales & targets · **Status:** In production · runs unattended on the weekly closes
 
 ## Problem
 

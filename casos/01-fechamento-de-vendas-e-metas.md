@@ -1,6 +1,6 @@
 # Fechamento semanal de vendas e metas
 
-> **Área:** Comercial e metas · **Status:** Em produção · roda sozinho todos os dias
+> **Área:** Comercial e metas · **Status:** Em produção · roda sozinho nos fechamentos semanais
 
 ## Problema
 

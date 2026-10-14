@@ -1,76 +1,76 @@
-# Automações corporativas
+# Projetos, automação e melhoria de processos
 
-**Analista de projetos e automação.** Entendo como uma área da empresa funciona, encontro o trabalho manual e entrego a solução completa, da conversa com o time até o sistema rodando em produção.
+**Analista de projetos e automação.** Mapeio o processo, encontro o gargalo, construo a solução (robô, aplicativo ou IA) e acompanho até ela rodar em produção.
+
+*Melhoria de processos · Automação (RPA) · IA aplicada · Robôs · Gestão de projetos*
 
 [English version](README.en.md)
 
-Em uma rede de lojas do setor de alimentação, passei por várias áreas da empresa e criei uma automação ou um sistema para cada uma: financeiro, contabilidade, comercial e metas, compras e estoque, operação e controle. São 9 projetos, e o fio condutor é o mesmo: **mapear o processo real, transformar as regras em código e deixar uma pessoa sempre com a decisão final.**
+Em uma rede de lojas do setor de alimentação, passei por várias áreas da empresa e, em cada uma, descobri onde havia trabalho manual e criei a solução. São 9 projetos, e o fio condutor é o mesmo: **entender o processo real, transformar as regras em código e deixar sempre uma pessoa com a decisão final.**
 
-## O que automatizei, por área
+## Resultados em destaque
 
-| Área | Projeto | Status |
+- **De até uma semana de trabalho para cerca de 5 minutos** no fechamento semanal de vendas e metas.
+- **9 projetos em 6 áreas da empresa:** financeiro, contabilidade, comercial e metas, compras e estoque, operação e controle e delivery.
+- **6 rotinas agendadas** no Windows rodando sem ninguém apertar um botão.
+- **Um sistema de produção e estoque com mais de 11 mil linhas de código**, construído em poucas semanas e já em operação.
+- **IA aplicada com responsabilidade:** sempre depois das regras e sempre com revisão humana antes de gravar.
+- **Segurança por perfil dentro do banco de dados** (row level security) em três sistemas.
+
+## Projetos
+
+| Área | Projeto | Tipo | Status |
+|---|---|---|---|
+| Comercial e metas | [Fechamento semanal de vendas e metas](casos/01-fechamento-de-vendas-e-metas.md) | Robô (RPA) | Em produção |
+| Contabilidade e fiscal | [Relatórios fiscais mensais para a contabilidade](casos/02-relatorios-fiscais-mensais.md) | Robô (RPA) | Em produção |
+| Financeiro | [Contas a pagar: da extração à aprovação e ao borderô](casos/03-contas-a-pagar-aprovacao-e-bordero.md) | Robô + banco de dados | Em produção |
+| Compras e estoque | [Entrada de NF-e de mercadoria com apoio de IA](casos/04-entrada-de-nfe-com-ia.md) | Robô + IA | Em uso |
+| Financeiro | [Lançamento assistido de notas de serviço (NFS-e)](casos/05-lancamento-assistido-de-nfse.md) | Robô + IA | Em uso |
+| Financeiro e operação das lojas | [App de recebimento e financeiro (PWA)](casos/06-app-de-recebimento-e-financeiro.md) | Aplicativo | Em produção |
+| Operação e controle | [Apuração de descarte e bônus de equipe](casos/07-apuracao-de-descarte-e-bonus.md) | Dados e relatórios | Em produção |
+| Comercial e delivery | [Margem de delivery por aplicativo](casos/08-margem-de-delivery-por-app.md) | Dados e relatórios | Em evolução |
+| Operação e controle | [Sistema de controle de produção e estoque de gelato (IRIS)](casos/09-sistema-de-producao-e-estoque-de-gelato.md) | Aplicativo + robôs | Em operação e em expansão |
+
+## Melhoria de processos: antes e depois
+
+| Processo | Antes | Depois |
 |---|---|---|
-| Comercial e metas | [Fechamento semanal de vendas e metas](casos/01-fechamento-de-vendas-e-metas.md) | Em produção |
-| Contabilidade e fiscal | [Relatórios fiscais mensais para a contabilidade](casos/02-relatorios-fiscais-mensais.md) | Em produção |
-| Financeiro | [Contas a pagar: da extração à aprovação e ao borderô](casos/03-contas-a-pagar-aprovacao-e-bordero.md) | Em produção |
-| Compras e estoque | [Entrada de NF-e de mercadoria com apoio de IA](casos/04-entrada-de-nfe-com-ia.md) | Em uso |
-| Financeiro | [Lançamento assistido de notas de serviço (NFS-e)](casos/05-lancamento-assistido-de-nfse.md) | Em uso |
-| Financeiro e operação das lojas | [App de recebimento e financeiro (PWA)](casos/06-app-de-recebimento-e-financeiro.md) | Em produção |
-| Operação e controle | [Apuração de descarte e bônus de equipe](casos/07-apuracao-de-descarte-e-bonus.md) | Em produção |
-| Comercial e delivery | [Margem de delivery por aplicativo](casos/08-margem-de-delivery-por-app.md) | Em evolução |
-| Operação e controle | [Sistema de controle de produção e estoque de gelato (IRIS)](casos/09-sistema-de-producao-e-estoque-de-gelato.md) | Em operação e em expansão |
+| Fechamento de vendas e metas | Manual, podia levar uma semana | Automático, cerca de 5 minutos |
+| Relatórios fiscais | Gerados loja a loja, à mão | Gerados e organizados sozinhos no 1º dia útil |
+| Aprovação de pagamentos | Uma lista dentro do ERP | Fila de aprovação com histórico e borderô |
+| Entrada de notas de mercadoria | Digitação e conversão de unidade à mão | Assistida, com IA só como último recurso e revisão humana |
+| Notas de serviço | Leitura e digitação | OCR com formulário pré-preenchido e revisão humana |
+| Conciliação bancária | Extrato e pagamentos em planilhas separadas | Importação do extrato e conciliação automática |
+| Descarte e bônus | Dezenas de planilhas e PDFs a cada mês | Pipeline reproduzível, com diagnóstico do que falta |
+| Produção e estoque | Planilhas separadas, sem saber quem pesou o quê | Sistema com rastreabilidade e conferência por uma segunda pessoa |
+| Margem de delivery | Só receita e quantidade | Receita, custo e margem por canal (em evolução) |
 
-Em estudo, ainda sem código: rotina de baixa de pagamentos, fluxo de caixa e DRE integrados ao módulo de tesouraria.
-
-
-## Como os projetos se conectam
-
-```mermaid
-flowchart LR
-  ERP[("ERP")]
-  DB[("Cloud database")]
-  DRIVE[("Spreadsheets and PDFs in the cloud")]
-
-  subgraph NP["Notes and payments"]
-    APP["Receiving app"] --> DB
-    DB --> NINA["Goods invoice entry"]
-    DB --> LIA["Service invoice posting"]
-    NINA --> ERP
-    LIA --> ERP
-    ERP --> AP["Accounts payable and approval"]
-    AP --> DB
-    DB --> TES["Treasury"]
-  end
-
-  subgraph RM["Reports and targets"]
-    ERP --> SALES["Sales close"]
-    ERP --> TAX["Tax reports"]
-    SALES --> DRIVE
-    TAX --> DRIVE
-    DRIVE --> WASTE["Waste and bonus"]
-    SALES --> DB
-    DB --> TARGETS["Targets dashboard"]
-    DRIVE --> DELIVERY["Delivery margin"]
-  end
-```
-
-## O que esses projetos mostram
-
-- **Visão de negócio:** levantamento de processos e tradução de regras em código, com status honesto do que está em produção, em teste e em estudo
-- **Automação sem API:** integração com sistemas que não têm API, usando Playwright, com tratamento de falhas, logs e notificações
-- **Dados e relatórios:** Python, pandas, Excel e PDF
-- **Banco de dados e segurança:** PostgreSQL, SQL, triggers e controle de acesso por perfil (row level security)
-- **Aplicativos web:** PWA instalável em JavaScript puro, com autenticação, perfis e funcionamento offline
-- **IA aplicada com responsabilidade:** OCR e conversão de unidades com Claude, sempre com revisão humana antes de gravar
-
-## Como eu trabalho
+## Como conduzo um projeto
 
 1. **Descubro o processo e o gargalo** conversando com quem opera a área.
 2. **Inspeciono o sistema.** Quando não há API, analiso as telas (botões, formulários, URLs e o caminho de cada relatório) até entender como automatizar.
 3. **Pesquiso e escolho a tecnologia** e o caminho de execução.
 4. **Conduzo a IA com instruções precisas.** Eu defino o problema e as regras; o Claude (Anthropic) é meu parceiro de programação e eu reviso o que ele escreve.
 5. **Testo com dados reais**, trato as falhas e só então deixo rodar sozinho.
-6. **Mantenho uma pessoa com a decisão final** onde há risco.
+6. **Acompanho depois de entregar:** leio os logs, corrijo o que falha e ajusto o que mudou no processo.
+7. **Mantenho uma pessoa com a decisão final** onde há risco.
+
+## Próximos passos (roadmap)
+
+Em estudo ou em andamento, ainda sem código pronto:
+
+- Rotina de baixa de pagamentos, fluxo de caixa e DRE, integrados à tesouraria.
+- Sistema de produção e estoque: custo da receita, baixa automática de insumos e reposição automática.
+- Margem de delivery: incluir cupom e desconto, automatizar a extração e unificar tudo numa rotina única.
+
+## Habilidades
+
+- **Projetos e processos:** levantamento de requisitos, mapeamento de processos, melhoria contínua, priorização, validação com as áreas, acompanhamento pós-entrega
+- **Automação e robôs (RPA):** Python, Playwright, integração com sistemas sem API, rotinas agendadas, logs, tratamento de falhas e notificações
+- **IA aplicada:** OCR, conversão de unidades e apoio à decisão com o Claude, com revisão humana
+- **Dados e relatórios:** pandas, Excel avançado (fórmulas, painéis, gráficos), PDF
+- **Banco de dados e segurança:** PostgreSQL, SQL, triggers, row level security
+- **Aplicativos web:** PWA instalável em JavaScript puro, com autenticação, perfis e funcionamento offline
 
 ## Privacidade e segurança
 
