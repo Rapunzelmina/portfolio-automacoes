@@ -1,4 +1,4 @@
-# Gelato production and stock control system (IRIS)
+# Gelato production and stock control system
 
 > **Area:** Operations & control · **Status:** In operation and expanding
 

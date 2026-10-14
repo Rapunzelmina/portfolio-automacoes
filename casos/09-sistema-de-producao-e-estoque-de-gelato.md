@@ -1,4 +1,4 @@
-# Sistema de controle de produção e estoque de gelato (IRIS)
+# Sistema de controle de produção e estoque de gelato
 
 > **Área:** Operação e controle · **Status:** Em operação e em expansão
 
