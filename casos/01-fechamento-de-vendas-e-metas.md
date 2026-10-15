@@ -4,7 +4,7 @@
 
 ## Problema
 
-O acompanhamento de vendas contra metas, loja por loja, era feito à mão: baixar relatórios do ERP, somar por categoria, atualizar planilhas e montar PDFs para a diretoria e para as lojas. Podia consumir uma semana de trabalho a cada fechamento.
+O acompanhamento de vendas contra metas, loja por loja, era feito à mão: baixar relatórios do ERP, somar por categoria, atualizar planilhas e montar PDFs para a diretoria e para as lojas. Cada ciclo de fechamento podia consumir quase um dia de trabalho, e um mês tem até cinco ciclos.
 
 ## Solução
 
@@ -22,7 +22,7 @@ Um robô entra sozinho no ERP, baixa o relatório de vendas de cada loja, soma p
 
 ## Resultado
 
-O processo, que podia levar uma semana de trabalho, passou a rodar automaticamente em cerca de 5 minutos. Veja também o [caso público original](https://github.com/Rapunzelmina/Sales-Closing-Automation).
+O que levava quase um dia de trabalho por ciclo (cerca de uma semana por mês) passou a rodar automaticamente em até 5 minutos por ciclo. Veja também o [caso público original](https://github.com/Rapunzelmina/Sales-Closing-Automation).
 
 ## O que eu fiz
 

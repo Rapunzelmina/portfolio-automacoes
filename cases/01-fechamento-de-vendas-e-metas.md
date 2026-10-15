@@ -4,7 +4,7 @@
 
 ## Problem
 
-Sales-versus-target tracking, store by store, was manual: download ERP reports, total by category, update spreadsheets and build PDFs for management and for each store. Each close could take a full working week.
+Sales-versus-target tracking, store by store, was manual: download ERP reports, total by category, update spreadsheets and build PDFs for management and for each store. Each closing cycle could take almost a full working day, and a month has up to five cycles.
 
 ## Solution
 
@@ -22,7 +22,7 @@ A bot logs into the ERP on its own, downloads each store's sales report, totals 
 
 ## Result
 
-A process that could take a full working week now runs automatically in about 5 minutes. See also the [original public case](https://github.com/Rapunzelmina/Sales-Closing-Automation).
+What took almost a full working day per cycle (about a week per month) now runs automatically in up to 5 minutes per cycle. See also the [original public case](https://github.com/Rapunzelmina/Sales-Closing-Automation).
 
 ## What I did
 

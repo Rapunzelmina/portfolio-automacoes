@@ -10,7 +10,7 @@ Em uma rede de lojas do setor de alimentação, passei por várias áreas da emp
 
 ## Resultados em destaque
 
-- **De até uma semana de trabalho para cerca de 5 minutos** no fechamento semanal de vendas e metas.
+- **De quase um dia de trabalho por ciclo para até 5 minutos** no fechamento de vendas e metas (cerca de uma semana por mês).
 - **9 projetos em 6 áreas da empresa:** financeiro, contabilidade, comercial e metas, compras e estoque, operação e controle e delivery.
 - **6 rotinas agendadas** no Windows rodando sem ninguém apertar um botão.
 - **Um sistema de produção e estoque com mais de 11 mil linhas de código**, construído em poucas semanas e já em operação.
@@ -39,13 +39,13 @@ Os projetos mais completos também têm um repositório só deles, com diagrama:
 - [App de recebimento e financeiro](https://github.com/Rapunzelmina/Receiving-Finance-PWA): aprovação, tesouraria (conciliação OFX) e painel de metas
 - [Contas a pagar, aprovação e borderô](https://github.com/Rapunzelmina/Accounts-Payable-Approval-Workflow): do ERP ao fluxo de aprovação, com segurança por perfil no banco
 - [Sistema de controle de produção e estoque](https://github.com/Rapunzelmina/Production-Stock-Control-System): pedido, produção, laboratório com pesagem conferida, delivery e exportação para Excel
-- [Fechamento de vendas e metas](https://github.com/Rapunzelmina/Sales-Closing-Automation): de até uma semana para cerca de 5 minutos
+- [Fechamento de vendas e metas](https://github.com/Rapunzelmina/Sales-Closing-Automation): de quase um dia por ciclo para até 5 minutos
 
 ## Melhoria de processos: antes e depois
 
 | Processo | Antes | Depois |
 |---|---|---|
-| Fechamento de vendas e metas | Manual, podia levar uma semana | Automático, cerca de 5 minutos |
+| Fechamento de vendas e metas | Manual, quase um dia por ciclo | Automático, até 5 minutos por ciclo |
 | Relatórios fiscais | Gerados loja a loja, à mão | Gerados e organizados sozinhos no 1º dia útil |
 | Aprovação de pagamentos | Uma lista dentro do ERP | Fila de aprovação com histórico e borderô |
 | Entrada de notas de mercadoria | Digitação e conversão de unidade à mão | Assistida, com IA só como último recurso e revisão humana |
