@@ -10,7 +10,7 @@ At a food-service retail chain I worked across several areas of the company and,
 
 ## Highlights
 
-- **From almost a working day per cycle to up to 5 minutes** in the sales and targets close (about a week per month).
+- **From 1 to 2 working days per cycle to up to 10 minutes** in the sales and targets close (author's estimate; a month has up to five cycles).
 - **9 projects across 6 areas of the company:** finance, accounting, sales and targets, purchasing and inventory, operations and control, and delivery.
 - **6 scheduled routines** on Windows running without anyone pressing a button.
 - **A production and stock system with over 11,000 lines of code**, built in a few weeks and already in operation.
@@ -39,13 +39,13 @@ The most complete projects also have a repository of their own, with a diagram:
 - [Receiving and finance app](https://github.com/Rapunzelmina/Receiving-Finance-PWA): approval, treasury (OFX reconciliation) and targets dashboard
 - [Accounts payable, approval and payment batch](https://github.com/Rapunzelmina/Accounts-Payable-Approval-Workflow): from the ERP to the approval workflow, with role-based security in the database
 - [Production and stock control system](https://github.com/Rapunzelmina/Production-Stock-Control-System): ordering, production, lab with double-checked weighing, delivery and Excel export
-- [Sales close automation](https://github.com/Rapunzelmina/Sales-Closing-Automation): from almost a day per cycle to up to 5 minutes
+- [Sales close automation](https://github.com/Rapunzelmina/Sales-Closing-Automation): from 1 to 2 days per cycle to up to 10 minutes
 
 ## Process improvement: before and after
 
 | Process | Before | After |
 |---|---|---|
-| Sales and targets close | Manual, almost a day per cycle | Automatic, up to 5 minutes per cycle |
+| Sales and targets close | Manual, 1 to 2 days per cycle | Automatic, up to 10 minutes per cycle |
 | Tax reports | Generated store by store, by hand | Generated and filed on their own on the first business day |
 | Payment approval | A list inside the ERP | Approval queue with history and payment batch |
 | Goods invoice entry | Typing and unit conversion by hand | Assisted, with AI only as a last resort and human review |

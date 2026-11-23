@@ -22,7 +22,7 @@ A bot logs into the ERP on its own, downloads each store's sales report, totals 
 
 ## Result
 
-What took almost a full working day per cycle (about a week per month) now runs automatically in up to 5 minutes per cycle. See also the [original public case](https://github.com/Rapunzelmina/Sales-Closing-Automation).
+What took 1 to 2 full working days per cycle (author's estimate) now runs automatically in up to 10 minutes per cycle. See also the [original public case](https://github.com/Rapunzelmina/Sales-Closing-Automation).
 
 ## What I did
 
